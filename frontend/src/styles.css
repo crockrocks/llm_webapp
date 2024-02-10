@@ -1,0 +1,135 @@
+/* index.css */
+body {
+    background-color: #202020;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.splash-screen {
+    text-align: center;
+    padding: 20px;
+}
+
+.language-selection {
+    margin-top: 20px;
+}
+
+.avatarss-container-app img {
+    max-width: 60px;
+    max-height: 60px;
+    margin-bottom: 20px;
+}
+
+.user-message {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1f1f1f;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    text-align: right;
+}
+
+.bot-message {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #333;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+.chat-history {
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    bottom: 30%;
+    overflow-y: auto;
+}
+
+
+.user-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 5%;
+    width: calc(100% - 65%);
+}
+
+input {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.avatar-container {
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    position: absolute;
+    bottom: 10%; 
+    left: 0;
+    width: 15%; 
+    height: 15%; 
+}
+
+.avatar-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Navbar.css */
+.navbar {
+    background-color: #333;
+    padding: 1%;
+    left: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 90%;
+    z-index: 1000;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    /* Stylish font family */
+}
+
+.brand {
+    font-size: 24px;
+    color: #fff;
+    /* White text color */
+}
+
+.categories {
+    display: flex;
+}
+
+.category {
+    margin-right: 20px;
+    font-size: 18px;
+    color: #fff;
+    /* White text color */
+    cursor: pointer;
+}
+
+.category:hover {
+    text-decoration: underline;
+}
+
+/* Add any additional styling you need for other components */
